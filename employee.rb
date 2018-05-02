@@ -49,12 +49,16 @@ class Employee
 end
 
 employee_1 = Employee.new(
-                        first_name: "tim"
-                        last_name: "taylor"
-                        salary: 70000
+                        first_name: "tim",
+                        last_name: "taylor",
+                        salary: 70000,
                         active: true
                         )
-# employee_2 = Employee.new("walter", "Cronkite", 80000, true)
+employee_2 = Employee.new(first_name: "walter",
+                          last_name: "Cronkite", 
+                          salary: 80000, 
+                          active: true
+                          )
 
 employee_1.print_info
 puts employee_1.salary
